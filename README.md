@@ -1,4 +1,11 @@
 ## F1/12th Simulator
+ros2 launch f112th_sim_2401_alpha rsp.launch.py 
+ros2 run joint_state_publisher_gui joint_state_publisher_gui
+rviz2 -d src/f112th_sim_2401_alpha/description/description.rviz
+
+
+
+
 
 This is a GitHub template. You can make your own copy by clicking the green "Use this template" button.
 
