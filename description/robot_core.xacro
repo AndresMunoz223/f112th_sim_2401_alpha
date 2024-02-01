@@ -30,6 +30,7 @@
             </geometry>
         </collision>
     </link>
+    
 
     <!-- left wheel joint -->
     <joint name="left_wheel_joint" type="continuous">
