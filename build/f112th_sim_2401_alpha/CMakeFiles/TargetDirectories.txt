@@ -1,0 +1,9 @@
+/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha/CMakeFiles/uninstall.dir
+/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha/CMakeFiles/f112th_sim_2401_alpha_uninstall.dir
+/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha/CMakeFiles/test.dir
+/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha/CMakeFiles/edit_cache.dir
+/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha/CMakeFiles/rebuild_cache.dir
+/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha/CMakeFiles/list_install_components.dir
+/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha/CMakeFiles/install.dir
+/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha/CMakeFiles/install/local.dir
+/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha/CMakeFiles/install/strip.dir

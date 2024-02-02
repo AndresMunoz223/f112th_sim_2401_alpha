@@ -1,0 +1,1 @@
+/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha/ament_cmake_environment_hooks/local_setup.zsh
