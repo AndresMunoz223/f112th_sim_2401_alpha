@@ -1,9 +1,10 @@
 ## F1/12th Simulator
-ros2 launch f112th_sim_2401_alpha rsp.launch.py 
+ros2 launch f112th_sim_2401_alpha rsp.launch.py use_sim_time:=true
+add use_sim_time:=true to use gazebo
 ros2 run joint_state_publisher_gui joint_state_publisher_gui
 rviz2 -d src/f112th_sim_2401_alpha/description/description.rviz
 
-
+*pdte robot_core.xacro Inertial stuff
 
 
 
