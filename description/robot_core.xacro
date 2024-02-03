@@ -102,7 +102,7 @@
 
     </link>
 
-    <!-- Gazebo stuff (remove?)-->
+    <!-- Gazebo tags stuff (remove?) color reference tags-->
     <gazebo reference="chassis">
         <material>Gazebo/White</material>
     </gazebo>

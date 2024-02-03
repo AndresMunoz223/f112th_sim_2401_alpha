@@ -7,12 +7,32 @@ rviz2 -d src/f112th_sim_2401_alpha/description/description.rviz
 *pdte robot_core.xacro Inertial stuff
 
 
+ros2 launch f112th_sim_2401_alpha launch_sim.launch.py world:=~/ros2_ws/src/f112th_sim_2401_alpha/worlds/BigRoom.world
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+rviz2 -d src/f112th_sim_2401_alpha/description/rviz_model.rviz
 
-This is a GitHub template. You can make your own copy by clicking the green "Use this template" button.
 
-You need to change the Name Project according to Teams Name (`Alpha`), ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `f112th_sim_2401_alpha`.
 
-This project was develop with resources available form:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+his project was develop with resources available form:
 Josh Newans (https://github.com/joshnewans)
 
 And the work done by:
