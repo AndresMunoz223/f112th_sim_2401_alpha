@@ -11,6 +11,9 @@ ros2 launch f112th_sim_2401_alpha launch_sim.launch.py world:=~/ros2_ws/src/f112
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 rviz2 -d src/f112th_sim_2401_alpha/description/rviz_model.rviz
 
+ros2 launch f112th_sim_2401_alpha launch_sim.launch.py world:=~/ros2_ws/src/f112th_sim_2401_alpha/worlds/BigRoom.world
+ros2 launch f112th_sim_2401_alpha joystick.launch.py
+rviz2 -d src/f112th_sim_2401_alpha/description/rviz_model.rviz
 
 
 
