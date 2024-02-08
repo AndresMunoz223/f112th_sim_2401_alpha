@@ -2,11 +2,12 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
     <!-- Example link -->
-    <xacro:include filename="inertial_macros.xacro"/>
-
-    <!-- Example link -->
     <link name="base_link">
     </link>
+    <!-- Example link -->
+    <xacro:include filename="inertial_macros.xacro"/>
+
+    
 
     <joint name="base_link" type="fixed">
         <parent link="base_link"/>
