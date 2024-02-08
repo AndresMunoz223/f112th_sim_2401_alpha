@@ -38,16 +38,32 @@ def generate_launch_description():
                     parameters=[joy_params],
                     remappings=[('/cmd_vel','/cmd_vel_joy')]
     )
+    
+    joystick = IncludeLaunchDescription(
+                PythonLaunchDescriptionSource([os.path.join(
+                    get_package_share_directory(package_name),'launch','joystick.launch.py'
+                )]), launch_arguments={'use_sim_time': 'true'}.items()
+    )
 
-    # Launch them all!
+
+    twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')
+    
+    twist_mux_node = Node(package='twist_mux', 
+                    executable='twist_mux',
+                    parameters=[twist_mux_params,{'use_sim_time': True}],
+                    remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
+    )
+
+# Launch them all!
     return LaunchDescription([
-        joy_node,
-        teleop_node
-    ])
+        rsp,
+        joystick,
+        twist_mux_node,
+        gazebo,
+        spawn_entity,
+        diff_drive_spawner,
+        joint_broad_spawner])
 
 
-    # Launch them all!
-    return LaunchDescription([
-        joy_node,
-        teleop_node
-    ])
+
+
