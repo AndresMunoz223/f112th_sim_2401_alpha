@@ -43,10 +43,10 @@ def generate_launch_description():
     #    spawn_entity,
 
     # Launch the Diff_Controller
-		diff_drive_spawner = Node(
-            package='controller_manager', 
-            executable='spawner', 
-            arguments=['diff_cont'])
+    diff_drive_spawner = Node(
+        package='controller_manager', 
+        executable='spawner', 
+        arguments=['diff_cont'])
 		
 		# Launch the Joint_Broadcaster
     joint_broad_spawner = Node(
@@ -59,7 +59,7 @@ def generate_launch_description():
         rsp,
         gazebo,
         spawn_entity,
-				diff_drive_spawner,
+        diff_drive_spawner,
         joint_broad_spawner
     ])
     
