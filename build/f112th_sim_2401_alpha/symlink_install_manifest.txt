@@ -13,7 +13,7 @@
 /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/launch/joystick.launch.py
 /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/launch/launch_sim.launch.py
 /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/launch/rsp.launch.py
-/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/worlds/empty.world
+/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/worlds/room3_walls.world
 /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/ament_index/resource_index/package_run_dependencies/f112th_sim_2401_alpha
 /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/ament_index/resource_index/parent_prefix_path/f112th_sim_2401_alpha
 /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/environment/ament_prefix_path.sh

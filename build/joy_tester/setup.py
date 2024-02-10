@@ -1,1 +1,0 @@
-/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/joy_tester/setup.py

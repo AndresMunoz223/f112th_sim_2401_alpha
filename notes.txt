@@ -1,0 +1,7 @@
+- Rev. Lidar docu
+- Rev. Ackerman controller docu
+- Rev. Ackerman model (visual)
+- Rev. Twist_Mux
+
+ ros2 launch f112th_sim_2401_alpha launch_sim.launch.py world:=src/f112th_sim_2401_alpha/worlds/room3_walls.world
+  rviz2 -d src/f112th_sim_2401_alpha/description/rviz_model.rviz

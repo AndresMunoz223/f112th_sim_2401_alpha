@@ -1,0 +1,59 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha
+-- Install configuration: ""
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/config
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/config/my_controllers.yaml
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/config/gazebo_params.yaml
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/config/empty.yaml
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/config/joystick.yaml
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/config/twist_mux.yaml
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/description
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/description/properties.xacro
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/description/robot_core.xacro
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/description/robot.urdf.xacro
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/description/inertial_macros.xacro
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/description/lidar.xacro
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/description/ros2_control.xacro
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/description/gazebo_control.xacro
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/launch
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/launch/launch_sim.launch.py
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/launch/rsp.launch.py
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/launch/joystick.launch.py
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/worlds
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/worlds/room3_walls.world
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/ament_index/resource_index/package_run_dependencies/f112th_sim_2401_alpha
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/ament_index/resource_index/parent_prefix_path/f112th_sim_2401_alpha
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/environment/ament_prefix_path.sh
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/environment/ament_prefix_path.dsv
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/environment/path.sh
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/environment/path.dsv
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/local_setup.bash
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/local_setup.sh
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/local_setup.zsh
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/local_setup.dsv
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/package.dsv
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/ament_index/resource_index/packages/f112th_sim_2401_alpha
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/cmake/f112th_sim_2401_alphaConfig.cmake
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/cmake/f112th_sim_2401_alphaConfig-version.cmake
+-- Installing: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/package.xml

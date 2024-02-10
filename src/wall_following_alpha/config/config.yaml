@@ -1,0 +1,11 @@
+twist_mux:
+  ros__parameters:
+    topics:
+      navigation:
+        topic   : /autoparams
+        timeout : 0.5
+        priority: 10
+      joystick  : 
+        topic   : /break
+        timeout : 0.5
+        priority: 100
