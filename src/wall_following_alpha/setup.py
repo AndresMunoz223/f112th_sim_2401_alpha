@@ -30,6 +30,6 @@ setup(
     entry_points={
     'console_scripts': [
     'break = wall_following_alpha.break:main',
-    'param_calc = wall_following_alpha.params_calc:main',],
+    'dist_finder_alpha = wall_following_alpha.distance_finder_alpha:main',],
 },
 )

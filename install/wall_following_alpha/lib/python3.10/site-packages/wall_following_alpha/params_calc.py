@@ -19,15 +19,17 @@ class ScanSub(Node):
     def scan_callback(self,data):
         msg = Twist()
         alpha, distance = angle_calculator(data, 0, 1, data.angle_increment)
-        msg.linear.x = alpha
-        msg.linear.y = distance
+        msg.linear.x = alpha #Offset angle
+        msg.linear.y = distance #Side Distance
+        msg.angular.z = data.ranges[int(len(data.ranges)/2)] #Front Distance
+        self.get_logger().info(f"distancia : {msg.angular.z}")
         self.cmd_pub.publish(msg)
 
 
     def __init__(self):
-        super().__init__("autoparams") # Redefine node name
+        super().__init__("distance_finder_alpha") # Redefine node name
         self.pose_subs = self.create_subscription(sensor_msgs.msg.LaserScan,'/scan',self.scan_callback,1)
-        self.cmd_pub = self.create_publisher(Twist,'/autoparams',10)
+        self.cmd_pub = self.create_publisher(Twist,'/car_params',10)
 
 def main(args=None):
     rclpy.init(args=args)

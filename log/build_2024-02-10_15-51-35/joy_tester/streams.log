@@ -1,0 +1,22 @@
+[3.159s] Invoking command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/joy_tester': PYTHONPATH=/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester/prefix_override:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joy_tester build --build-base /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester/build install --record /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester/install.log --single-version-externally-managed
+[3.921s] running egg_info
+[3.924s] writing ../../build/joy_tester/joy_tester.egg-info/PKG-INFO
+[3.925s] writing dependency_links to ../../build/joy_tester/joy_tester.egg-info/dependency_links.txt
+[3.926s] writing entry points to ../../build/joy_tester/joy_tester.egg-info/entry_points.txt
+[3.927s] writing requirements to ../../build/joy_tester/joy_tester.egg-info/requires.txt
+[3.928s] writing top-level names to ../../build/joy_tester/joy_tester.egg-info/top_level.txt
+[3.928s] reading manifest file '../../build/joy_tester/joy_tester.egg-info/SOURCES.txt'
+[3.933s] adding license file 'LICENSE'
+[3.934s] writing manifest file '../../build/joy_tester/joy_tester.egg-info/SOURCES.txt'
+[3.935s] running build
+[3.937s] running build_py
+[3.941s] running install
+[3.943s] running install_lib
+[3.949s] running install_data
+[3.952s] running install_egg_info
+[3.954s] removing '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/lib/python3.10/site-packages/joy_tester-0.0.2-py3.10.egg-info' (and everything under it)
+[3.954s] Copying ../../build/joy_tester/joy_tester.egg-info to /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/lib/python3.10/site-packages/joy_tester-0.0.2-py3.10.egg-info
+[3.954s] running install_scripts
+[4.021s] Installing test_joy script to /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/lib/joy_tester
+[4.021s] writing list of installed files to '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester/install.log'
+[4.123s] Invoked command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/joy_tester' returned '0': PYTHONPATH=/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester/prefix_override:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joy_tester build --build-base /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester/build install --record /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester/install.log --single-version-externally-managed

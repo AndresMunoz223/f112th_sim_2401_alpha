@@ -1,0 +1,29 @@
+[3.219s] Invoking command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/wall_following_alpha': PYTHONPATH=/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/prefix_override:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_following_alpha build --build-base /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/build install --record /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/install.log --single-version-externally-managed
+[3.866s] running egg_info
+[3.870s] writing ../../build/wall_following_alpha/wall_following_alpha.egg-info/PKG-INFO
+[3.872s] writing dependency_links to ../../build/wall_following_alpha/wall_following_alpha.egg-info/dependency_links.txt
+[3.876s] writing entry points to ../../build/wall_following_alpha/wall_following_alpha.egg-info/entry_points.txt
+[3.876s] writing requirements to ../../build/wall_following_alpha/wall_following_alpha.egg-info/requires.txt
+[3.877s] writing top-level names to ../../build/wall_following_alpha/wall_following_alpha.egg-info/top_level.txt
+[3.878s] reading manifest file '../../build/wall_following_alpha/wall_following_alpha.egg-info/SOURCES.txt'
+[3.883s] writing manifest file '../../build/wall_following_alpha/wall_following_alpha.egg-info/SOURCES.txt'
+[3.888s] running build
+[3.888s] running build_py
+[3.888s] copying wall_following_alpha/params_calc.py -> /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/build/lib/wall_following_alpha
+[3.888s] copying wall_following_alpha/break.py -> /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/build/lib/wall_following_alpha
+[3.888s] running install
+[3.888s] running install_lib
+[3.891s] copying /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/build/lib/wall_following_alpha/params_calc.py -> /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/python3.10/site-packages/wall_following_alpha
+[3.891s] copying /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/build/lib/wall_following_alpha/break.py -> /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/python3.10/site-packages/wall_following_alpha
+[3.892s] byte-compiling /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/python3.10/site-packages/wall_following_alpha/params_calc.py to params_calc.cpython-310.pyc
+[3.893s] byte-compiling /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/python3.10/site-packages/wall_following_alpha/break.py to break.cpython-310.pyc
+[3.894s] running install_data
+[3.901s] copying config/config.yaml -> /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/wall_following_alpha
+[3.903s] running install_egg_info
+[3.904s] removing '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/python3.10/site-packages/wall_following_alpha-0.0.0-py3.10.egg-info' (and everything under it)
+[3.904s] Copying ../../build/wall_following_alpha/wall_following_alpha.egg-info to /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/python3.10/site-packages/wall_following_alpha-0.0.0-py3.10.egg-info
+[3.906s] running install_scripts
+[3.959s] Installing break script to /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/wall_following_alpha
+[3.962s] Installing param_calc script to /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/wall_following_alpha
+[3.963s] writing list of installed files to '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/install.log'
+[4.131s] Invoked command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/wall_following_alpha' returned '0': PYTHONPATH=/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/prefix_override:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_following_alpha build --build-base /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/build install --record /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/install.log --single-version-externally-managed

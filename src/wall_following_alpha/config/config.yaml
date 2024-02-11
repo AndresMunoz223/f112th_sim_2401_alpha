@@ -1,11 +1,16 @@
-twist_mux:
+twist_mux_wall:
   ros__parameters:
     topics:
-      navigation:
-        topic   : /autoparams
+      keyboard:
+        topic   : cmd_vel
         timeout : 0.5
         priority: 10
-      joystick  : 
-        topic   : /break
+      joy:
+        topic   : cmd_vel_joy
+        timeout : 0.5
+        priority: 20
+    locks:
+      error: 
+        topic   : error
         timeout : 0.5
         priority: 100
