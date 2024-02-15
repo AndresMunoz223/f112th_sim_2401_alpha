@@ -1,0 +1,50 @@
+[0.449s] Invoking command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/f112th_sim_2401_alpha -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha
+[1.269s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.270s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.270s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.271s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.271s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.271s] -- Added test 'lint_cmake' to check CMake code style
+[1.271s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.271s] -- Added test 'xmllint' to check XML markup files
+[1.271s] -- Configuring done
+[1.271s] -- Generating done
+[1.272s] -- Build files have been written to: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha
+[1.914s] Invoked command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/f112th_sim_2401_alpha -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha
+[1.919s] Invoking command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha -- -j4 -l4
+[2.012s] Invoked command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha -- -j4 -l4
+[2.107s] Invoking command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha
+[2.124s] -- Install configuration: ""
+[2.128s] -- Execute custom install script
+[2.133s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/config/empty.yaml
+[2.136s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/config/gazebo_params.yaml
+[2.138s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/config/joystick.yaml
+[2.147s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/config/my_controllers.yaml
+[2.149s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/config/twist_mux.yaml
+[2.151s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/description/gazebo_control.xacro
+[2.152s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/description/inertial_macros.xacro
+[2.153s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/description/lidar.xacro
+[2.154s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/description/properties.xacro
+[2.156s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/description/robot.urdf.xacro
+[2.158s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/description/robot_core.xacro
+[2.161s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/description/ros2_control.xacro
+[2.162s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/launch/joystick.launch.py
+[2.165s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/launch/launch_sim.launch.py
+[2.167s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/launch/rsp.launch.py
+[2.171s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/worlds/room3_walls.world
+[2.171s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/ament_index/resource_index/package_run_dependencies/f112th_sim_2401_alpha
+[2.171s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/ament_index/resource_index/parent_prefix_path/f112th_sim_2401_alpha
+[2.172s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/environment/ament_prefix_path.sh
+[2.172s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/environment/ament_prefix_path.dsv
+[2.172s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/environment/path.sh
+[2.173s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/environment/path.dsv
+[2.173s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/local_setup.bash
+[2.175s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/local_setup.sh
+[2.177s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/local_setup.zsh
+[2.177s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/local_setup.dsv
+[2.178s] -- Symlinking: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/package.dsv
+[2.178s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/ament_index/resource_index/packages/f112th_sim_2401_alpha
+[2.179s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/cmake/f112th_sim_2401_alphaConfig.cmake
+[2.180s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/cmake/f112th_sim_2401_alphaConfig-version.cmake
+[2.180s] -- Up-to-date symlink: /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/package.xml
+[2.181s] Invoked command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha

@@ -1,0 +1,17 @@
+[3.926s] Invoking command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester': PYTHONPATH=/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester/prefix_override:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester/build --no-deps install_data
+[4.802s] running develop
+[5.411s] running egg_info
+[5.412s] writing joy_tester.egg-info/PKG-INFO
+[5.415s] writing dependency_links to joy_tester.egg-info/dependency_links.txt
+[5.417s] writing entry points to joy_tester.egg-info/entry_points.txt
+[5.417s] writing requirements to joy_tester.egg-info/requires.txt
+[5.417s] writing top-level names to joy_tester.egg-info/top_level.txt
+[5.420s] reading manifest file 'joy_tester.egg-info/SOURCES.txt'
+[5.423s] writing manifest file 'joy_tester.egg-info/SOURCES.txt'
+[5.427s] running build_ext
+[5.429s] Creating /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/lib/python3.10/site-packages/joy-tester.egg-link (link to .)
+[5.431s] Installing test_joy script to /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/lib/joy_tester
+[5.432s] 
+[5.432s] Installed /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester
+[5.432s] running install_data
+[5.731s] Invoked command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester' returned '0': PYTHONPATH=/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester/prefix_override:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester/build --no-deps install_data

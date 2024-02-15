@@ -1,0 +1,239 @@
+[1.638s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.638s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa228ce5300>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa228ce6230>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa228ce6230>>)
+[1.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.714s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/f112th_sim_2401_alpha) by extensions ['ignore', 'ignore_ament_install']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/f112th_sim_2401_alpha) by extension 'ignore'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/f112th_sim_2401_alpha) by extension 'ignore_ament_install'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/f112th_sim_2401_alpha) by extensions ['colcon_pkg']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/f112th_sim_2401_alpha) by extension 'colcon_pkg'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/f112th_sim_2401_alpha) by extensions ['colcon_meta']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/f112th_sim_2401_alpha) by extension 'colcon_meta'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/f112th_sim_2401_alpha) by extensions ['ros']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/f112th_sim_2401_alpha) by extension 'ros'
+[1.761s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f112th_sim_2401_alpha' with type 'ros.ament_cmake' and name 'f112th_sim_2401_alpha'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['ignore', 'ignore_ament_install']
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'ignore'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'ignore_ament_install'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['colcon_pkg']
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'colcon_pkg'
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['colcon_meta']
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'colcon_meta'
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['ros']
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'ros'
+[1.765s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy_tester' with type 'ros.ament_python' and name 'joy_tester'
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_following_alpha) by extensions ['ignore', 'ignore_ament_install']
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_following_alpha) by extension 'ignore'
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_following_alpha) by extension 'ignore_ament_install'
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_following_alpha) by extensions ['colcon_pkg']
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_following_alpha) by extension 'colcon_pkg'
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_following_alpha) by extensions ['colcon_meta']
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_following_alpha) by extension 'colcon_meta'
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_following_alpha) by extensions ['ros']
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_following_alpha) by extension 'ros'
+[1.768s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wall_following_alpha' with type 'ros.ament_python' and name 'wall_following_alpha'
+[1.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.981s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.981s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.027s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install
+[2.071s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 392 installed packages in /opt/ros/humble
+[2.075s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'f112th_sim_2401_alpha' build argument 'cmake_args' from command line to 'None'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'f112th_sim_2401_alpha' build argument 'cmake_target' from command line to 'None'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'f112th_sim_2401_alpha' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'f112th_sim_2401_alpha' build argument 'cmake_clean_cache' from command line to 'False'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'f112th_sim_2401_alpha' build argument 'cmake_clean_first' from command line to 'False'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'f112th_sim_2401_alpha' build argument 'cmake_force_configure' from command line to 'False'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'f112th_sim_2401_alpha' build argument 'ament_cmake_args' from command line to 'None'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'f112th_sim_2401_alpha' build argument 'catkin_cmake_args' from command line to 'None'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'f112th_sim_2401_alpha' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.263s] DEBUG:colcon.colcon_core.verb:Building package 'f112th_sim_2401_alpha' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha', 'merge_install': False, 'path': '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/f112th_sim_2401_alpha', 'symlink_install': False, 'test_result_base': None}
+[2.301s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_args' from command line to 'None'
+[2.302s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_target' from command line to 'None'
+[2.302s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.302s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_clean_cache' from command line to 'False'
+[2.302s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_clean_first' from command line to 'False'
+[2.302s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_force_configure' from command line to 'False'
+[2.302s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'ament_cmake_args' from command line to 'None'
+[2.302s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'catkin_cmake_args' from command line to 'None'
+[2.302s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.302s] DEBUG:colcon.colcon_core.verb:Building package 'joy_tester' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester', 'merge_install': False, 'path': '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/joy_tester', 'symlink_install': False, 'test_result_base': None}
+[2.333s] Level 5:colcon.colcon_core.verb:set package 'wall_following_alpha' build argument 'cmake_args' from command line to 'None'
+[2.333s] Level 5:colcon.colcon_core.verb:set package 'wall_following_alpha' build argument 'cmake_target' from command line to 'None'
+[2.333s] Level 5:colcon.colcon_core.verb:set package 'wall_following_alpha' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.333s] Level 5:colcon.colcon_core.verb:set package 'wall_following_alpha' build argument 'cmake_clean_cache' from command line to 'False'
+[2.333s] Level 5:colcon.colcon_core.verb:set package 'wall_following_alpha' build argument 'cmake_clean_first' from command line to 'False'
+[2.333s] Level 5:colcon.colcon_core.verb:set package 'wall_following_alpha' build argument 'cmake_force_configure' from command line to 'False'
+[2.333s] Level 5:colcon.colcon_core.verb:set package 'wall_following_alpha' build argument 'ament_cmake_args' from command line to 'None'
+[2.333s] Level 5:colcon.colcon_core.verb:set package 'wall_following_alpha' build argument 'catkin_cmake_args' from command line to 'None'
+[2.333s] Level 5:colcon.colcon_core.verb:set package 'wall_following_alpha' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.333s] DEBUG:colcon.colcon_core.verb:Building package 'wall_following_alpha' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha', 'merge_install': False, 'path': '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/wall_following_alpha', 'symlink_install': False, 'test_result_base': None}
+[2.362s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.391s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.391s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/f112th_sim_2401_alpha' with build type 'ament_cmake'
+[2.391s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/f112th_sim_2401_alpha'
+[2.424s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.501s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/joy_tester' with build type 'ament_python'
+[2.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'ament_prefix_path')
+[2.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/share/joy_tester/hook/ament_prefix_path.ps1'
+[2.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/share/joy_tester/hook/ament_prefix_path.dsv'
+[2.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/share/joy_tester/hook/ament_prefix_path.sh'
+[2.557s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.557s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.634s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/wall_following_alpha' with build type 'ament_python'
+[2.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_following_alpha', 'ament_prefix_path')
+[2.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/wall_following_alpha/hook/ament_prefix_path.ps1'
+[2.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/wall_following_alpha/hook/ament_prefix_path.dsv'
+[2.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/wall_following_alpha/hook/ament_prefix_path.sh'
+[2.693s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.693s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha -- -j4 -l4
+[3.249s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/joy_tester'
+[3.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.828s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/wall_following_alpha'
+[3.861s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.861s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha -- -j4 -l4
+[4.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha
+[4.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f112th_sim_2401_alpha)
+[4.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/f112th_sim_2401_alpha
+[4.154s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha' for CMake module files
+[4.156s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha' for CMake config files
+[4.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('f112th_sim_2401_alpha', 'cmake_prefix_path')
+[4.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/hook/cmake_prefix_path.ps1'
+[4.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/hook/cmake_prefix_path.dsv'
+[4.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/hook/cmake_prefix_path.sh'
+[4.212s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/bin'
+[4.213s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/lib/pkgconfig/f112th_sim_2401_alpha.pc'
+[4.215s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/lib/python3.10/site-packages'
+[4.216s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/bin'
+[4.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/package.ps1'
+[4.283s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/package.dsv'
+[4.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/package.sh'
+[4.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/package.bash'
+[4.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/package.zsh'
+[4.292s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/colcon-core/packages/f112th_sim_2401_alpha)
+[4.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f112th_sim_2401_alpha)
+[4.422s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha' for CMake module files
+[4.423s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha' for CMake config files
+[4.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('f112th_sim_2401_alpha', 'cmake_prefix_path')
+[4.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/hook/cmake_prefix_path.ps1'
+[4.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/hook/cmake_prefix_path.dsv'
+[4.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/hook/cmake_prefix_path.sh'
+[4.480s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/bin'
+[4.481s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/lib/pkgconfig/f112th_sim_2401_alpha.pc'
+[4.481s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/lib/python3.10/site-packages'
+[4.482s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/bin'
+[4.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/package.ps1'
+[4.525s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/package.dsv'
+[4.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/package.sh'
+[4.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/package.bash'
+[4.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/f112th_sim_2401_alpha/package.zsh'
+[4.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/f112th_sim_2401_alpha/share/colcon-core/packages/f112th_sim_2401_alpha)
+[4.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/wall_following_alpha': PYTHONPATH=/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/prefix_override:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_following_alpha build --build-base /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/build install --record /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/install.log --single-version-externally-managed
+[4.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/joy_tester': PYTHONPATH=/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester/prefix_override:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joy_tester build --build-base /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester/build install --record /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester/install.log --single-version-externally-managed
+[5.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/wall_following_alpha' returned '0': PYTHONPATH=/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/prefix_override:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_following_alpha build --build-base /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/build install --record /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/install.log --single-version-externally-managed
+[5.698s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha' for CMake module files
+[5.699s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha' for CMake config files
+[5.701s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib'
+[5.701s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/bin'
+[5.702s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/pkgconfig/wall_following_alpha.pc'
+[5.703s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/python3.10/site-packages'
+[5.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_following_alpha', 'pythonpath')
+[5.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/wall_following_alpha/hook/pythonpath.ps1'
+[5.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/wall_following_alpha/hook/pythonpath.dsv'
+[5.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/wall_following_alpha/hook/pythonpath.sh'
+[5.743s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/bin'
+[5.744s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wall_following_alpha)
+[5.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/wall_following_alpha/package.ps1'
+[5.774s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/wall_following_alpha/package.dsv'
+[5.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/wall_following_alpha/package.sh'
+[5.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/wall_following_alpha/package.bash'
+[5.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/wall_following_alpha/package.zsh'
+[5.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/colcon-core/packages/wall_following_alpha)
+[5.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/src/joy_tester' returned '0': PYTHONPATH=/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester/prefix_override:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joy_tester build --build-base /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester/build install --record /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/joy_tester/install.log --single-version-externally-managed
+[5.807s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester' for CMake module files
+[5.809s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester' for CMake config files
+[5.810s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/lib'
+[5.810s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/bin'
+[5.810s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/lib/pkgconfig/joy_tester.pc'
+[5.811s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/lib/python3.10/site-packages'
+[5.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'pythonpath')
+[5.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/share/joy_tester/hook/pythonpath.ps1'
+[5.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/share/joy_tester/hook/pythonpath.dsv'
+[5.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/share/joy_tester/hook/pythonpath.sh'
+[5.847s] Level 1:colcon.colcon_core.environment:checking '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/bin'
+[5.848s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_tester)
+[5.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/share/joy_tester/package.ps1'
+[5.872s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/share/joy_tester/package.dsv'
+[5.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/share/joy_tester/package.sh'
+[5.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/share/joy_tester/package.bash'
+[5.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/share/joy_tester/package.zsh'
+[5.875s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/joy_tester/share/colcon-core/packages/joy_tester)
+[5.875s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.876s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.876s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.876s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.909s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.909s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.909s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.922s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.951s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/local_setup.ps1'
+[5.953s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/_local_setup_util_ps1.py'
+[5.955s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/setup.ps1'
+[5.984s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/local_setup.sh'
+[5.986s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/_local_setup_util_sh.py'
+[5.987s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/setup.sh'
+[6.012s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/local_setup.bash'
+[6.013s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/setup.bash'
+[6.039s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/local_setup.zsh'
+[6.040s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/setup.zsh'

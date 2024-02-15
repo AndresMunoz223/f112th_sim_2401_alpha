@@ -1,0 +1,27 @@
+[1.581s] Invoking command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha': PYTHONPATH=/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/prefix_override:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/build --no-deps install_data
+[1.893s] running develop
+[2.131s] running egg_info
+[2.131s] creating wall_following_alpha.egg-info
+[2.132s] writing wall_following_alpha.egg-info/PKG-INFO
+[2.132s] writing dependency_links to wall_following_alpha.egg-info/dependency_links.txt
+[2.132s] writing entry points to wall_following_alpha.egg-info/entry_points.txt
+[2.132s] writing requirements to wall_following_alpha.egg-info/requires.txt
+[2.132s] writing top-level names to wall_following_alpha.egg-info/top_level.txt
+[2.133s] writing manifest file 'wall_following_alpha.egg-info/SOURCES.txt'
+[2.136s] reading manifest file 'wall_following_alpha.egg-info/SOURCES.txt'
+[2.137s] writing manifest file 'wall_following_alpha.egg-info/SOURCES.txt'
+[2.138s] running build_ext
+[2.138s] Creating /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/python3.10/site-packages/wall-following-alpha.egg-link (link to .)
+[2.141s] Installing break script to /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/wall_following_alpha
+[2.141s] Installing control_alpha script to /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/wall_following_alpha
+[2.141s] Installing dist_finder_alpha script to /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/wall_following_alpha
+[2.141s] 
+[2.141s] Installed /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha
+[2.141s] running install_data
+[2.141s] creating /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/ament_index
+[2.142s] creating /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/ament_index/resource_index
+[2.142s] creating /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/ament_index/resource_index/packages
+[2.142s] copying resource/wall_following_alpha -> /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/ament_index/resource_index/packages
+[2.142s] copying package.xml -> /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/wall_following_alpha
+[2.142s] copying config/config.yaml -> /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/share/wall_following_alpha
+[2.223s] Invoked command in '/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha' returned '0': PYTHONPATH=/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/prefix_override:/home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/install/wall_following_alpha/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/epsdelta/Documents/RoboticaMovil/ros2_ws_2401/build/wall_following_alpha/build --no-deps install_data

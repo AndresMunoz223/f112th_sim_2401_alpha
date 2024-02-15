@@ -3,31 +3,33 @@ import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
 from std_msgs.msg import Bool
+from std_msgs.msg import Float32MultiArray
 
-class BreakNode(Node): # reemplazar YY por el numero de grupo
-    distance = 0
+class BreakNode(Node):
+
+    front_distance = 0 #Distancia frontal
+
     def break_callback(self,data):
-        self.get_logger().info(f"ejecutado")
         msg = Bool()
-        msg.data = False
-        time = self.distance/(data.linear.x+(1e-10))
-        if 0  < time < 3:
+        time = self.front_distance/(data.linear.x+(1e-10)) # tiempo de frenado
+        if 0  < time < 0.5:
             msg.data = True
         else:
-            msg.data = False
-        self.get_logger().info(f"condicional :{self.distance/(data.linear.x+(1e-10))}")
+            msg.data = False    
+        self.get_logger().info(f"condicional :{self.front_distance/(data.linear.x+(1e-10))}") #Log por remas de debug
         self.cmd_pub.publish(msg)
-        
 
     def pose_callback(self,data):
-        self.distance = data.angular.z
-        # self.get_logger().info(f"distancia : {self.distance}")
+        self.front_distance = data.data[2] #Distancia frontal
+        
 
 
     def __init__(self):
-        super().__init__("break") # Redefine node name
+        super().__init__("break") 
         self.vel_subs = self.create_subscription(Twist,'/cmd_vel_joy',self.break_callback,1)
-        self.pose_subs = self.create_subscription(Twist,'/car_params',self.pose_callback,1)
+        self.vel_subs = self.create_subscription(Twist,'/cmd_vel',self.break_callback,1)
+        self.vel_subs = self.create_subscription(Twist,'/cmd_vel_ctrl',self.break_callback,1)
+        self.pose_subs = self.create_subscription(Float32MultiArray,'/car_params',self.pose_callback,1)
         self.cmd_pub = self.create_publisher(Bool,'/error',10)
 
 

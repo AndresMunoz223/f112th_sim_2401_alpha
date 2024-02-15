@@ -3,9 +3,6 @@ import os
 from glob import glob
 
 
-
-
-
 package_name = 'wall_following_alpha'
 
 setup(
@@ -30,6 +27,9 @@ setup(
     entry_points={
     'console_scripts': [
     'break = wall_following_alpha.break:main',
-    'dist_finder_alpha = wall_following_alpha.distance_finder_alpha:main',],
+    'dist_finder_alpha = wall_following_alpha.distance_finder_alpha:main',
+    'control_alpha = wall_following_alpha.control_alpha:main',
+    'gap_control_alpha = wall_following_alpha.gap_control_alpha:main',
+    ],
 },
 )
