@@ -54,15 +54,16 @@ def generate_launch_description():
                     remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
     )
 
-# Launch them all!
+ #Launch them all!
     return LaunchDescription([
-        rsp,
+        rsp.launch.py,
         joystick,
         twist_mux_node,
-        gazebo,
-        spawn_entity,
-        diff_drive_spawner,
-        joint_broad_spawner])
+         #Lgazebo,
+         #Lspawn_entity,
+         #Ldiff_drive_spawner,
+         #Ljoint_broad_spawner
+        ])
 
 
 
