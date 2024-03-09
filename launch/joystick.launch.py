@@ -21,44 +21,36 @@ def generate_launch_description():
                     parameters=[joy_params],
     )
 
-    #teleop_node = Node(package='teleop_twist_joy', 
-    #                executable='teleop_node',
-    #                name="teleop_node",
-    #                parameters=[joy_params],
-    #)
-    #teleop_node = Node(package='teleop_twist_joy', 
-    #                executable='teleop_node',
-    #                name="teleop_node",
-    #                parameters=[joy_params],
-    #                remappings=[('/cmd_vel','/diff_cont/cmd_vel_unstamped')]
-    #)
+
     teleop_node = Node(package='teleop_twist_joy', 
                     executable='teleop_node',
                     name="teleop_node",
                     parameters=[joy_params],
-                    remappings=[('/cmd_vel','/cmd_vel_joy')]
+                    remappings=[('/cmd_vel','/cmd_vel_out')]
     )
     
-    joystick = IncludeLaunchDescription(
-                PythonLaunchDescriptionSource([os.path.join(
-                    get_package_share_directory(package_name),'launch','joystick.launch.py'
-                )]), launch_arguments={'use_sim_time': 'true'}.items()
-    )
+    # joystick = IncludeLaunchDescription(
+    #             PythonLaunchDescriptionSource([os.path.join(
+    #                 get_package_share_directory(package_name),'launch','joystick.launch.py'
+    #             )]), launch_arguments={'use_sim_time': 'true'}.items()
+    # )
 
 
-    twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')
+    # twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')
     
-    twist_mux_node = Node(package='twist_mux', 
-                    executable='twist_mux',
-                    parameters=[twist_mux_params,{'use_sim_time': True}],
-                    remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
-    )
+    # twist_mux_node = Node(package='twist_mux', 
+    #                 executable='twist_mux',
+    #                 parameters=[twist_mux_params,{'use_sim_time': True}],
+    #                 remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
+    # )
 
  #Launch them all!
     return LaunchDescription([
-        rsp.launch.py,
-        joystick,
-        twist_mux_node,
+        joy_node,
+        teleop_node
+        # rsp.launch.py,
+        # joystick,
+        # twist_mux_node,
          #Lgazebo,
          #Lspawn_entity,
          #Ldiff_drive_spawner,
